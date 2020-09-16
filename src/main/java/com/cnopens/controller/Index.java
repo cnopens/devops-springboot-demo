@@ -18,7 +18,7 @@ public class Index {
     @RequestMapping("/index")
     public Result getIndex() {
 
-        return Result.result(200, "ok", "helloworld");
+        return Result.result(200, "ok", "hello jenkins auto build....");
 
     }
 }
